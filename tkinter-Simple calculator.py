@@ -1,4 +1,5 @@
 __author__ = "YOU XUAN-CHANG"
+# 協助者： pk
 import tkinter as tk
 from PIL import ImageTk, Image
 win = tk.Tk()
