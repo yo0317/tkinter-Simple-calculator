@@ -106,19 +106,7 @@ def math():
     # 當上次按下的按鈕是「AC」或尚未有上次按的按鈕時 直接將showNumber的值存入變數pastRes
     elif lastOp == "":
         pastRes = showNumber.get()
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ================================================================================
 win.wm_title("計算機")                          # 視窗標題
 win.resizable(width=False, height=False)      # 視窗設為不可拉動大小
 win.minsize(width=480, height=480)             # 視窗最小範圍
